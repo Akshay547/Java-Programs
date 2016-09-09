@@ -7,12 +7,13 @@ import java.util.Scanner;
 public class Pangram {
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the string to check if its a Pangram: ");
 		String Input = sc.nextLine();
 		sc.close();
 		if(isPangram(Input)){
-			System.out.println(Input + " is a Pangram");
+			System.out.println(Input + " is Pangram");
 		}else
-			System.out.println(Input + " is not a Pangram");
+			System.out.println(Input + " is not Pangram");
 		}
 	public static boolean isPangram(String s){
 		StringBuilder sb= new StringBuilder(s.toLowerCase());

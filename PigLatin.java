@@ -7,6 +7,7 @@ public class PigLatin {
 	public static void main(String[] args) {
 //		Reading input
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the text to be translated: ");
 		String input = sc.nextLine().toLowerCase();
 		sc.close();
 		StringBuilder result = new StringBuilder();
