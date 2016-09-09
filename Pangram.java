@@ -10,9 +10,9 @@ public class Pangram {
 		String Input = sc.nextLine();
 		sc.close();
 		if(isPangram(Input)){
-			System.out.println(Input + " is Pangram");
+			System.out.println(Input + " is a Pangram");
 		}else
-			System.out.println(Input + " is not Pangram");
+			System.out.println(Input + " is not a Pangram");
 		}
 	public static boolean isPangram(String s){
 		StringBuilder sb= new StringBuilder(s.toLowerCase());
